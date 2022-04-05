@@ -4,7 +4,7 @@ function contar(){
     let passo = document.getElementById('txtp')
     let res = document.getElementById('res')
 
-    if(ini.value.length ==0 || fim.value.length==0 || passo.value.lenght ==0){
+    if(ini.value.length == 0 || fim.value.length == 0 || passo.value.lenght == 0){
         res.innerHTML = 'Impossível Contar'
         window.alert('[ERRO] Faltam Dados!')
     }else {
@@ -17,7 +17,7 @@ function contar(){
         }
         if(i < f){
             //contagem crescente
-            for(let c=i; c<=f; c+=p){
+            for(let c=i; c<=f; c +=p){
             res.innerHTML += `${c} \u{1F449}`
             }  
         }else {
