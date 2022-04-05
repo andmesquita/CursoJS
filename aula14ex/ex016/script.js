@@ -14,6 +14,7 @@ function contar(){
         let p = Number(passo.value)
         if (p<=0){
             window.alert('Passo Inválido!')
+            p = 1
         }
         if(i < f){
             //contagem crescente
